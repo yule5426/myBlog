@@ -70,6 +70,9 @@ git restore <file>
 ## 将工作区的修改内容保存到暂存区
 git add <file>
 
+## 删除工作区的文件并保存到暂存区
+git rm <file>
+
 ## 将提交到暂存区的内容unstage
 git restore --stage <file>
 
