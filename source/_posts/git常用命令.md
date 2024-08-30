@@ -28,11 +28,15 @@ git push
 ```
 ## 新建分支并切换
 git checkout -b <branchName>
-git switch -C <branchName>
+git switch -c <branchName>
 
 ## 仅切换分支
 git checkout <branchName>
 git switch <branchName>
+
+## 修改分支名称
+git branch -m <new branchName>
+git branch -m <old branchName> <new branchName>
 ```
 
 
@@ -100,3 +104,14 @@ git log --pretty=oneline
 
 
 
+> 分支合并
+
+```
+git merge/rebase <branchName>  ##将其他分支合并到当前分支
+```
+
+
+
+> 其他
+
+![image-20240830112730385](/Users/yule5426/Library/Application Support/typora-user-images/image-20240830112730385.png)
