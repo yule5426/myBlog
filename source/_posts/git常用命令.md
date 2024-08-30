@@ -114,4 +114,4 @@ git merge/rebase <branchName>  ##将其他分支合并到当前分支
 
 > 其他
 
-![image-20240830112730385](/Users/yule5426/Library/Application Support/typora-user-images/image-20240830112730385.png)
+![image-20240830112730385](../git.png)
